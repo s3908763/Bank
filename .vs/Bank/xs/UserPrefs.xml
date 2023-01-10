@@ -1,13 +1,17 @@
 ﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{7007153B-83EB-48D0-B578-8374F4C8929A}|Default">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.Bank PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Database/Database_Account.cs">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Database/IDatabase.cs">
     <Files>
       <File FileName="Program.cs" />
-      <File FileName="Database/Database_Account.cs" Line="24" Column="1" />
-      <File FileName="Database/Database_Customer.cs" Line="21" Column="1" />
-      <File FileName="Database/Database_Login.cs" Line="4" Column="40" />
-      <File FileName="Database/Database_Transaction.cs" Line="2" Column="16" />
+      <File FileName="Database/Database_Account.cs" />
+      <File FileName="Database/Database_Customer.cs" />
+      <File FileName="Database/Database_Login.cs" />
+      <File FileName="Database/Database_Transaction.cs" />
       <File FileName="Model/Account.cs" />
       <File FileName="Model/Customer.cs" />
       <File FileName="Model/Login.cs" />
@@ -15,22 +19,19 @@
       <File FileName="Bank.cs" />
       <File FileName="DataSource.cs" />
       <File FileName="ReadDatabase.cs" />
-      <File FileName="MainMenu.cs" Line="21" Column="37" />
-      <File FileName="Database/IDatabase.cs" Line="4" Column="27" />
-      <File FileName="Bank_Operation/Deposit.cs" Line="50" Column="50" NotebookId="1" />
+      <File FileName="MainMenu.cs" />
+      <File FileName="Database/IDatabase.cs" Line="12" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Bank" expanded="True">
+          <Node name="Bank" expanded="True" selected="True">
             <Node name="Bank" expanded="True">
               <Node name="Dependencies" expanded="True">
                 <Node name="PackageDependencies" expanded="True" />
               </Node>
               <Node name="Bank_Operation" expanded="True" />
-              <Node name="Database" expanded="True">
-                <Node name="Database_Account.cs" selected="True" />
-              </Node>
+              <Node name="Database" expanded="True" />
               <Node name="Model" expanded="True" />
             </Node>
           </Node>
@@ -38,7 +39,5 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
